@@ -16,9 +16,17 @@
   }
 }
 
+@font-face {
+    font-family: 'BemboMTPro';
+    src: url('fonts/BemboMTPro-Regular.woff2') format('woff2'),
+         url('fonts/BemboMTPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   margin: 0;
-  font-family: "bembo mt pro", sans-serif;
+  font-family: "BemboMTPro", sans-serif;
   background: #8599be;
   color: #000;
 }
